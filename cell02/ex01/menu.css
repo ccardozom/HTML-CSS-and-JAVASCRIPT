@@ -1,0 +1,33 @@
+nav a{
+	text-decoration:none;
+	color:red;
+	font-size:14px;
+	
+	}
+
+nav li{
+	display:inline-block;
+	width:100px;
+	padding:5px 5px;
+	background-color:#000;
+	border:1px solid #000;
+	text-align:center;
+	position:relative;
+}
+
+nav li:hover{
+	background-color:#fff;
+	}
+
+nav li > ul{
+	display:none;
+	}
+
+nav li:hover > ul{
+	display:block;
+	position:absolute;
+	top:30px;
+	left:-1px;
+	margin:0;
+	padding:0;
+}
