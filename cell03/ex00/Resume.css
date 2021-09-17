@@ -1,0 +1,52 @@
+*{
+    margin: 0rem;
+    padding: 0rem;
+}
+
+body{
+    background-color: rgb(72, 119, 125);
+    color: white;
+    text-align: center;
+}
+
+div{
+    background-color: rgb(32, 116, 116);
+    padding: 20px;
+    border-radius: 40px;
+}
+
+div.center {
+    width: 25%;
+    justify-content: center;
+    margin: auto;
+    display:flex;
+}
+
+div.center div:nth-child(1) {
+    margin: auto auto auto 0;
+}
+
+div.center div {
+    padding: 0;
+}
+
+.tabla{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.circular{
+    border-radius: 50rem;
+    width: 10rem;
+}
+
+.redes{
+    border-radius: 1rem;
+    width: 3rem;
+}
+
+.sobre{
+    border-radius: 5px;
+    width: 3rem;
+}
